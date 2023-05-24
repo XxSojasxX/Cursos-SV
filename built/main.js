@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-console.log("OSCAR NOGALES");
+console.log("SEBASTIAN VACA");
 let students = [];
 let teachers = [];
 let activities = [];
@@ -157,8 +157,8 @@ function generateReport() {
         let td;
         tr = reporTable.insertRow(0);
         td = tr.insertCell(0);
-        td.innerHTML ? itemDTO.course : ;
-        td = tr.insertCell(1),
+        td.innerHTML ? itemDTO.course :
+            td = tr.insertCell(1),
             td.innerHTML = itemDTO.student;
     });
 }
